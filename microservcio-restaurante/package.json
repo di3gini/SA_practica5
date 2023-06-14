@@ -1,0 +1,39 @@
+{
+  "name": "users-microservice-sa-g10",
+  "version": "1.0.0",
+  "description": "Microservicio encargado de la gestion de usuarios (login, signup, perfil, etc.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local_start": "nodemon server.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sa_jun23_g10/users-microservice-sa-g10.git"
+  },
+  "keywords": [
+    "users",
+    "microservice",
+    "login"
+  ],
+  "author": "Diego Molina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/sa_jun23_g10/users-microservice-sa-g10/issues"
+  },
+  "homepage": "https://gitlab.com/sa_jun23_g10/users-microservice-sa-g10#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.3.3",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.32.0",
+    "swagger-autogen": "^2.23.1",
+    "swagger-ui-express": "^4.6.3"
+  }
+}
